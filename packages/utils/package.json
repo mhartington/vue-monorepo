@@ -1,0 +1,20 @@
+{
+  "name": "@client/hooks",
+  "version": "0.1.0",
+  "private": true,
+  "module": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "typescript": "~4.1.5"
+  }
+}

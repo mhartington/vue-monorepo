@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "client-app": {
+      "name": "client-app",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "vue",
+      "root": "packages/client-app"
+    }
+  }
+}
